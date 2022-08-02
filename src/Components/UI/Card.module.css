@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+
+.card {
+  width: 18rem;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "texts" "stats";
+  font-family: "Bitter", serif;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card_image {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  grid-area: image;
+}
+
+.card_text {
+  grid-area: text;
+}
